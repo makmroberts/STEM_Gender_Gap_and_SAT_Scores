@@ -3,11 +3,11 @@
 This project analyzes SAT Suite of Assessments score distributions from 2018 through 2024 using publicly available College Board annual reports.
 
 ## Project Overview
-The goal is to extract, clean, and analyze SAT score distribution data over multiple years to identify trends in overall performance and differences between the Evidence-Based Reading & Writing (ERW) and Math sections.
+The goal is to extract, clean, and analyze SAT score distribution data over multiple years to identify trends in overall performance and differences between the Evidence-Based Reading & Writing (ERW) and Math sections for male and female test takers.
 
 ## Data
-- Source: [College Board Annual Reports](https://satsuite.collegeboard.org/media)
-- Format: PDF tables (pages 5–7 of each report)
+- Source: [College Board Annual Reports](https://reports.collegeboard.org/sat-suite-program-results/data-archive)
+- Format: PDF tables (pages 5–7, depending on report)
 - Years: 2018–2024
 
 ## Methodology
@@ -22,10 +22,6 @@ The goal is to extract, clean, and analyze SAT score distribution data over mult
    - Visualized ERW vs Math performance.
    - Tracked overall score trends.
 
-## Results
-- Overall SAT scores have [insert key finding].
-- ERW scores [trend].
-- Math scores [trend].
 
 ## Repository Structure
 ```
@@ -51,5 +47,5 @@ pip install pandas matplotlib seaborn camelot-py[cv]
 3. Run all cells to reproduce the analysis.
 
 ## Author
-[Your Name]  
+Makenna Roberts
 Master’s Student in Applied Statistics & Data Science  
